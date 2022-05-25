@@ -13,7 +13,7 @@ function App() {
   }  
 
   const obtenerLocalStorage = () => {
-    const pacientesLS = (localStorage.getItem('pacientes')) ? JSON.parse(localStorage.getItem('pacientes')) : [];
+    const pacientesLS = JSON.parse(localStorage.getItem('pacientes')) ?? [];
     setPacientes(pacientesLS);
   }
 

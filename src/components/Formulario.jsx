@@ -75,8 +75,6 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
     setEmail('');
     setFecha('');
     setSintomas('');
-
-    
   }
 
   return (
